@@ -40,5 +40,7 @@ SELECT
 FROM OrderItems oi
 JOIN Dishes d ON oi.DishID = d.DishID
 WHERE oi.OrderID = 1;
+
+
 SELECT * FROM Payments WHERE Status = 'Completed';
 
